@@ -1,6 +1,6 @@
 # 🧠 Parkinson Disease Detection Using Multimodal Deep Learning
 
-This project focuses on the multimodal classification of Parkinson’s Disease by analyzing both **video frames** and **audio features** extracted from YouTube interviews. Two deep learning models were developed using Early Fusion and Late Fusion strategies to detect Parkinson’s symptoms from both modalities.
+This project focuses on the multimodal classification of Parkinson’s Disease by analyzing both **image frames** and **audio features** extracted from YouTube interviews. Two deep learning models were developed using Early Fusion and Late Fusion strategies to detect Parkinson’s symptoms from both modalities.
 
 ---
 
@@ -32,7 +32,7 @@ This project uses multimodal data — **audio** (speech) and **visual** (facial 
 
 - **12 YouTube videos** (interviews of both Parkinson’s patients and healthy individuals) were collected using `pytube`.
 - **Audio tracks** were extracted with `moviepy`.
-- **Video frames** were extracted with `OpenCV`.
+- **image frames** were extracted with `OpenCV`.
 
 ### 2. Audio Preprocessing
 
@@ -106,7 +106,7 @@ _(See graphs and full report in PDF or notebook.)_
 
 ## 🔖 Keywords
 
-`Parkinson`, `Multimodal`, `Deep Learning`, `CNN`, `LSTM`, `MFCC`, `Video Classification`, `Audio Processing`
+`Parkinson`, `Multimodal`, `Deep Learning`, `CNN`, `LSTM`, `MFCC`, `image Classification`, `Audio Processing`
 
 ---
 
